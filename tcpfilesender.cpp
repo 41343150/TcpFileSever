@@ -2,7 +2,7 @@
 #include "ui_tcpfilesender.h"
 
 TcpFileSender::TcpFileSender(QWidget *parent)
-    : QWidget(parent)
+    : QDialog(parent)
     , ui(new Ui::TcpFileSender)
 {
     ui->setupUi(this);

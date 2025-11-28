@@ -1,7 +1,7 @@
 #ifndef TCPFILESENDER_H
 #define TCPFILESENDER_H
 
-#include <QWidget>
+#include <QDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -9,7 +9,7 @@ class TcpFileSender;
 }
 QT_END_NAMESPACE
 
-class TcpFileSender : public QWidget
+class TcpFileSender : public QDialog
 {
     Q_OBJECT
 
