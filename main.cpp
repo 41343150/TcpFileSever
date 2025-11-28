@@ -1,11 +1,11 @@
-#include "topfilesender.h"
+#include "tcpfilesender.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    TopFileSender w;
+    TcpFileSender w;
     w.show();
     return a.exec();
 }

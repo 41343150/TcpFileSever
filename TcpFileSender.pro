@@ -10,13 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    topfilesender.cpp
+    tcpfilesender.cpp
 
 HEADERS += \
-    topfilesender.h
+    tcpfilesender.h
 
 FORMS += \
-    topfilesender.ui
+    tcpfilesender.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
